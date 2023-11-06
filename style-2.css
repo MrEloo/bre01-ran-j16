@@ -1,0 +1,118 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    
+    overflow-x: hidden;
+     box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 1px;
+    background: linear-gradient(to right, #2E6F95, #455E89, #5C4D7D, #723C70, #892B64);
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 60vh;
+
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+}
+
+
+nav{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items : center;
+    justify-content: center;
+}
+
+li img{
+    position: absolute;
+    width: 3.5rem;
+    top: 2rem;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    
+    padding: 1rem;
+    margin: 0 7rem;
+
+}
+footer{
+    display: grid;
+    height: 60vh;
+}
+
+footer > div > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#copy{
+    grid-column: 1/-1;
+    text-align: center;
+    color: #060b0e;
+}
+
+footer ul li{
+    text-align: center;
+    
+    list-style: none;
+    font-family: Montserrat;
+}
+
+#first a{
+    color: #a01a58 ;
+    font-family: Montserrat;
+}
+
+#second a{
+    color: #723c70 ;
+
+}
+
+#third a{
+    color: #455e89 ;
+
+}
+
+
+h1{
+    color: black;
+}
+main{
+    display: grid;
+}
+
+#experience{
+    background-color: #a01a58;
+}
+#education{
+    background-color: #723c70;
+}
+#loisirs{
+    background-color: #455e89;
+}
